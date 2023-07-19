@@ -87,7 +87,7 @@
 
 /* Banner Section */
 .banner-section{
-    padding: 0px 200px;
+    padding: 0px 50px 0px 200px;
     display: flex;
     background: #faf6f6;
     justify-content: space-between;
@@ -104,8 +104,6 @@
     display: flex;
     flex-direction:column;
     gap: 40px;
-    padding-top: 200px;
-    padding-bottom: 250px;
 }
 #banner-play{
     color: #0B0223;
@@ -158,6 +156,7 @@
 /* Gamer Section */
 .gamer-container{
     padding: 0px 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -200,4 +199,40 @@
 #unleash{
     font-size: 1.8rem;
     font-weight: 700;
+}
+
+/* Funny Videos-Card Section */
+.funny-videos{
+    text-align: center;
+    padding: 100px 200px 50px 200px;
+}
+
+.funny-videos p{
+    color: #534C64;
+    font-size: 1.15rem;
+    line-height: 30px
+}
+#online-games{
+    color: #0B0223;
+}
+
+
+.cards{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: #FFF;
+}
+
+.cards img{
+    width: 300px;
+    height: auto;
+}
+.cards p{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
 }
