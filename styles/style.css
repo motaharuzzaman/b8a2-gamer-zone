@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Shared Styles */
+.common-styles{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.nav-container{
+    margin: 55px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+    
+}
+
+.nav-logo-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo-container img{
+    width: 86px;
+    height: 40px;
+}
+.nav-items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 50px;
+}
+.nav-items ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-items li, a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.nav-btn-container{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+    
+
+}
+.G-color{
+    color: skyblue;
+}
+.nav-color{
+    color: #0B0223;
+}
+.nav-btn-container button{
+    border: none;
+}
+#youtube{
+    width: 24px;
+    height: 24px;
+    
+}
+#tiktok{
+    width: 34px;
+    height: 24px;
+}
+
+/* Banner Section */
+.banner-text{
+    
+}
