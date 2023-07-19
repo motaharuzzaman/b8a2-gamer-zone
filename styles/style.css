@@ -285,19 +285,17 @@
     margin-bottom: 100px;
     justify-content: space-around;
     gap: 20px;
-    /* color: #FF42A5, #FF42A5;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
+    background: #b3e6f8;
+    border-radius: 20px;
 }
-.game-types-image{
-    display: flex;
-}
+
 .game-types button{
     display: flex;
     border-radius: 50px;
     background: #FFF;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px 10px;
     gap: 10px;
     color: #0B0223;
     font-size: 1.25rem;
@@ -313,7 +311,7 @@
 /* Footer Section Styles */
 .footer-container{
     background: #0B0223;
-    padding: 100px 0px;
+    padding: 100px 200px;
 }
 .footer-head{
     display: flex;
@@ -335,4 +333,34 @@
     gap: 50px;
     font-size: 1.15rem;
     font-weight: 600;
+}
+.footer-btn{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#footer-image-size{
+    width: 40px;
+    height: 40px;
+}
+
+.terms{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    list-style: none;
+    text-decoration: none;
+}
+#copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+    padding-top: 40px;
 }
